@@ -1,4 +1,4 @@
-# Bookworm
+# SwiftData: Introduction
 
 Paul Hudson's ([@twostraws](https://x.com/twostraws)) 100 Days of Swift UI Project 12.
 
