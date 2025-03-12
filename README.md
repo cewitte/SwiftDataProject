@@ -35,6 +35,13 @@ Here's an example:
 2. That predicate gives us a single user instance to check. In practice that will be called once for each user loaded by SwiftData, and we need to return true if that user should be included in the results.
 3. Our test checks whether the user's name contains the letter R. If it does, the user will be included in the results, otherwise they won't. For this purpose, iOS gives us a separate method `localizedStandardContains()`. This also takes a string to search for, except it automatically ignores letter case, so it's a much better option when you're trying to filter by user text."
 
+### Dynamically sorting and filtering `@Query` with SwiftUI
+
+Source URL: [Dynamically sorting and filtering `@Query` with SwiftUI](https://www.hackingwithswift.com/books/ios-swiftui/dynamically-sorting-and-filtering-query-with-swiftui)
+
+Branch: `02-dynamically-sorting`
+
+"What we're going to do is move that list out into a separate view – a view specifically for running the SwiftData query and showing its results, then make it optionally show all users or only users who are joining in the future."
 
 ### Acknowledgments
 
