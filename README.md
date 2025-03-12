@@ -43,6 +43,16 @@ Branch: `02-dynamically-sorting`
 
 "What we're going to do is move that list out into a separate view – a view specifically for running the SwiftData query and showing its results, then make it optionally show all users or only users who are joining in the future."
 
+### Relationships with SwiftData, SwiftUI, and `@Query`
+
+Source URL: [Relationships with SwiftData, SwiftUI, and `@Query`](https://www.hackingwithswift.com/books/ios-swiftui/relationships-with-swiftdata-swiftui-and-query)
+
+Branch: `03-swiftdata-relationships`
+
+"SwiftData allows us to create models that reference each other, for example saying that a `School` model has an array of many `Student` objects, or an `Employee` model stores a `Manager` object.
+
+These are called relationships, and they come in all sorts of forms. SwiftData does a good job of forming these relationships automatically as long as you tell it what you want, although there's still some room for surprises!"
+
 ### Acknowledgments
 
 Original code created by: [Paul Hudson - @twostraws](https://x.com/twostraws) (Thank you!)
